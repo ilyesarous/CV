@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 1%;
+}
+.header{
+    display: flex;
+    padding: 4%;
+    align-items: center;
+    background-image: linear-gradient(rgb(23, 80, 131), rgb(104, 167, 223));
+}
+#pic{
+    border-radius: 50%;
+}
+.flex{
+   padding-left: 15%;
+}
+#name{
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    text-shadow: 3px 5px 6px black
+}
+#major{
+    padding: 10px;
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    text-shadow: 3px 5px 6px black
+}
+.leftP{
+    width: 40%;
+    padding: 30px;
+    clear: right;
+}
+#personalInfo{
+    margin-top: 10px;
+    padding: 10px;
+}
+#ligne{
+    border-bottom:5px solid rgb(117, 117, 117) ;
+    max-width: 40%;
+    padding-top: 10px;
+}
+#personalInfo > h2{
+    color: rgb(117, 117, 117);
+}
+#personalInfo > p{
+    text-align: justify;
+    padding-top: 20px;
+    font-size: 18px;
+}
+table{
+    border-spacing: 20px;
+}
+.rightP{
+    float: right;
+    width: 60%;
+    margin-top: -98.1%;
+    background-color: rgb(231, 230, 230);
+    padding: 25px;
+}
+#personalInfo > ul{
+    padding-top: 20px;
+    padding-left: 18px;
+    font-size: 18px;
+}
+ul > li{
+    padding: 5px;
+}
